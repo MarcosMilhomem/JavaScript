@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detran</title>
+    <style>
+        body {
+            background-color: darkgray;
+        }
+    </style>
 </head>
 <body>
     <h1>Sistema de Multas</h1>
@@ -20,10 +25,10 @@
         var vel = Number(txtv.value)
 
         res.innerHTML = `Sua velocidade atual é de ${vel} Km/h`
-       if ( vel > 50) {
-        window.alert('Você está acima da velocidade. MULTADO!')
+       if ( vel > 60) {
+        res.innerHTML += '<p>Você está acima da velocidade. MULTADO!</p>'
         } else {
-            alert('Você está dentro da velocidade permitida. Siga tranquilamente!')
+            res.innerHTML += '<p>Você está dentro da velocidade permitida. Siga tranquilamente!</p>'
         } 
        }
     </script>
