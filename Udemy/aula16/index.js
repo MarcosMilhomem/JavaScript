@@ -1,0 +1,8 @@
+const valorDigitado = prompt('Digite um valor')
+document.body.innerHTML += (`<h1><strong>Seu número é ${valorDigitado}</strong></h1>`)
+document.body.innerHTML += (`<p>A raiz quadrada é ${valorDigitado ** 0.5}</p>`)
+document.body.innerHTML += (`<p>${valorDigitado} é um número inteiro: ${Number.isInteger(valorDigitado)}</p>`)
+document.body.innerHTML += (`<p>É NaN: ${isNaN(valorDigitado)}</p>`)
+document.body.innerHTML += (`<p>Arredondando para baixo: ${Math.floor(valorDigitado)}</p>`)
+document.body.innerHTML += (`<p>Arredondando para cima: ${Math.ceil(valorDigitado)}</p>`)
+document.body.innerHTML += (`<p>Com duas casas decimais ${valorDigitado.any(2)}</p>`)
