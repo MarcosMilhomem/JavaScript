@@ -1,7 +1,9 @@
-const precoCombustivel = 5.79;
-const kmPorLitros = 12;
-const distanciaEmKm = 1580 ;
-
-const valorViagem = (distanciaEmKm / kmPorLitros) * precoCombustivel;
-
-console.log (valorViagem.toFixed(2));
+const numero = 3;
+const numeroPar = (numero % 2) === 0;
+if (numero === 0) {
+    console.log("O número é inválido")
+} else if (numeroPar) {
+    console.log("PAR");
+} else (!numeroPar); {
+    console.log("ÍMPAR");
+}
