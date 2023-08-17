@@ -1,2 +1,1 @@
-var horaAtualizado = new Date()
-var horario = 
+var horaAtualizado = new Date();
