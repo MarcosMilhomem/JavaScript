@@ -1,0 +1,1 @@
+var horaAtualizado = new Date();
