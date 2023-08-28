@@ -8,6 +8,13 @@ header {
     text-align: center;
 }
 
+input {
+    margin: 10px;
+}
+
+button {
+    margin-top: 15px;
+}
 
 section {
     background-color: white;

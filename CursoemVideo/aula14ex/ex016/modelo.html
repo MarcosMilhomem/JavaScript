@@ -8,17 +8,17 @@
 </head>
 <body>
     <header>
-        <h1>Verificador de Idade</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section>
         <div>
-            Início: <input type="number" name="inicio" id="inicio">
-        </div>
-        <div> 
-            Fim: <input type="number" name="fim" id="fim">
+            Início:<input type="number" name="inicio" id="inicio"><br>
+            Fim:<input type="number" name="fim" id="fim"><br>
+            Passo:<input type="number" name="passo" id="passo"><br>
+            <button type="submit" onclick="contando()">Contar</button>
         </div>
         <div>
-                Passo: <input type="number" name="passo" id="passo">
+            <p id="contagem">Preparando a contagem...</p>
         </div>
     </section>
     <footer>
