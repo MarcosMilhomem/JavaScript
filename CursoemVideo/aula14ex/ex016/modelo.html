@@ -11,13 +11,13 @@
         <h1>Vamos contar</h1>
     </header>
     <section>
-        <div>
+        <div id="dados">
             Início:<input type="number" name="inicio" id="inicio"><br>
             Fim:<input type="number" name="fim" id="fim"><br>
             Passo:<input type="number" name="passo" id="passo"><br>
-            <button type="submit" onclick="contando()">Contar</button>
+            <input type="button" value="Contar" onclick="contar()">
         </div>
-        <div>
+        <div id="res">
             <p id="contagem">Preparando a contagem...</p>
         </div>
     </section>

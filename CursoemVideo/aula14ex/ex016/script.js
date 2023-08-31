@@ -1,7 +1,11 @@
-function contando() {
-let inicio = document.querySelector('div#inicio')
-let fim = document.querySelector('div#fim')
-let passo = document.querySelector('div#passo')
-let res = Number(inicio) + Number(passo)
-console.log(res)
+function contar() {
+let inicio = document.getElementById('inicio')
+let fim = document.getElementById('fim')
+let passo = document.getElementById('passo')
+
+if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
+    alert ('Está faltando preencher um campo')
+} else {
+    alert ('Tudo ok')
+} 
 }
